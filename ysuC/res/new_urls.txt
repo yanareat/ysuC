@@ -1,0 +1,459 @@
+[
+  # 燕大特写
+  https://www.ysu.edu.cn/index/xwtx.htm
+  # news_list
+  //div[@class='list']//ul//li[@style='']//a//@href
+  //div[@class='list']//ul//li//a//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //div[@class='content-title']//h3[1]//text()
+  # time
+  //div[@class='content-title']//i//span[1]//text()
+  # author
+  //div[@class='content-title']//i//em//text()
+  # content
+  //div[@class='content-con']//p//text()
+  # html
+  //div[@class='content-con']//p
+  # image_urls
+  //div[@class='content-con']//img//@src
+][
+  # 燕大新闻
+  https://www.ysu.edu.cn/index/xyxw.htm
+  # news_list
+  //div[@class='list']//ul//li[@style='']//a//@href
+  //div[@class='list']//ul//li//a//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //div[@class='content-title']//h3[1]//text()
+  # time
+  //div[@class='content-title']//i//span[1]//text()
+  # author
+  //div[@class='content-title']//i//em//text()
+  # content
+  //div[@class='content-con']//p//text()
+  # html
+  //div[@class='content-con']//p
+  # image_urls
+  //div[@class='content-con']//img//@src
+][
+  # 国际教育学院
+  https://gjjyxy.ysu.edu.cn/list1.jsp?urltype=tree.TreeTempUrl&wbtreeid=1167
+  # news_list
+  //a[@class='c52754']//@href
+  .
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle156705']//text()
+  # time
+  //span[@class='timestyle156705']//text()
+  # author
+  .
+  # content
+  //p[@class='MsoNormal']//span//text()
+  # html
+  //div[@id='vsb_content']
+  # image_urls
+  //div[@id='vsb_content']//child::p//img//@src
+][
+  # 国防科技学院
+  https://ndst.ysu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1948
+  # news_list
+  //a[@class='c53208']//@href
+  .
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle53231']//text()
+  # time
+  //span[@class='timestyle53231']//text()
+  # author
+  .
+  # content
+  //div[@id='vsb_content']//text()
+  # html
+  //div[@id='vsb_content']
+  # image_urls
+  .
+][
+  # 继续教育学院
+  https://cec.ysu.edu.cn/lby.jsp?urltype=tree.TreeTempUrl&wbtreeid=2038
+  # news_list
+  //a[@class='c1833']//@href
+  .
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle1835']//text()
+  # time
+  //span[@class='timestyle1835']//text()
+  # author
+  .
+  # content
+  //div[@id='vsb_content_2']//p//text()
+  # html
+  //div[@id='vsb_content_2']
+  # image_urls
+  //table[@class='imgtable']//img//@src
+][
+  # 里仁学院
+  https://stc.ysu.edu.cn/xxgg/lrxw.htm
+  # news_list
+  //ul[@id='news_list']//li[@style='']//a//@href
+  //ul[@id='news_list']//li//a//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //p[@class='artile_title']//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //div[@class='artiel_content']//div//text()
+  # html
+  //div[@class='artiel_content']//div
+  # image_urls
+  //div[@class='artiel_content']//img//@src
+][###############少两条
+  # 体育学院
+  https://sports.ysu.edu.cn/xwtz/xyxw.htm
+  # news_list
+  //tr[@style='']//a[@class='c53294']//@href
+  //tr//a[@class='c53294']//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle53292']//text()
+  # time
+  //span[@class='timestyle53292']//text()
+  # author
+  .
+  # content
+  //div[@id='vsb_content_501']//p//text()
+  # html
+  //div[@id='vsb_content_501']
+  # image_urls
+  //div[@id='vsb_content_501']//p//img//@src
+][#############数目不对
+  # 艺术与设计学院
+  https://art.ysu.edu.cn/xw1/xyxw.htm
+  # news_list
+  //div[@id='detaillist']//ul//li[@style='']//a//@href
+  //div[@id='detaillist']//ul//li//a//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //h1[1]//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //div[@id='vsb_content_501']//p//text()
+  //div[@id='vsb_content']//p//text()
+  # html
+  //div[@id='vsb_content_501']
+  //div[@id='vsb_content']
+  # image_urls
+  //div[@id='vsb_content']//img//@src
+][
+  # 马克思主义学院
+  https://marx.ysu.edu.cn/index/xyxw.htm
+  # news_list
+  //table[@class='winstyle157393']//tr[@style='']//td/a/@href
+  //table[@class='winstyle157393']//tr//td/a/@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle157394']//text()
+  # time
+  //span[@class='timestyle157394']//text()
+  # author
+  //span[@class='authorstyle157394']//text()
+  .
+  # content
+  //div[@id='vsb_content']//p//text()
+  //div[@id='vsb_content_501']//p//text()
+  # html
+  //div[@id='vsb_content']
+  //div[@id='vsb_content_501']
+  # image_urls
+  //div[@id='vsb_content']//img//@src
+  //div[@id='vsb_content_501']//img//@src
+][
+  # 文法学院
+  https://wenfa.ysu.edu.cn/xyxw.htm
+  # news_list
+  //li[@id='lineu3_0']//parent::ul//child::li[@style='']//a[2]//@href
+  //li[@id='lineu3_0']//parent::ul//child::li//a[2]//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //h1//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //p[@class='vsbcontent_start']//parent::div//child::p//text()
+  # html
+  //p[@class='vsbcontent_start']//parent::div
+  # image_urls
+  //div[@id='vsb_content_4']//img//@src
+][
+  # 外院新闻
+  https://foreign.ysu.edu.cn/wyxw.htm
+  # news_list
+  //ul[@class='wp_article_list']//li//a//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //h1//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //p[@class='vsbcontent_start']//parent::div//child::p//text()
+  # html
+  //p[@class='vsbcontent_start']//parent::div
+  # image_urls
+  //div[@id='vsb_content_501']//p//img//@src
+][
+  # 经济管理学院
+  https://fem.ysu.edu.cn/xyxw/xyxw.htm
+  # news_list
+  //tr[@style='']//td//a[@class='c54074']//@href
+  //tr//td//a[@class='c54074']//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle54075']//text()
+  # time
+  //span[@class='timestyle54075']//text()
+  # author
+  .
+  # content
+  //p[@class='vsbcontent_start']//parent::div//child::p//text()
+  # html
+  //p[@class='vsbcontent_start']//parent::div
+  # image_urls
+  //div[@id='vsb_content_501']//p//img//@src  
+][
+  # 理学院
+  https://lxy.ysu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1013
+  # news_list
+  //a[@class='c16883']//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle16972']//text()
+  # time
+  //span[@class='timestyle16972']//text()
+  # author
+  .
+  # content
+  //p[@class='vsbcontent_start']//parent::div//child::p//text()
+  //div[@id='vsb_content_2']//p//text()
+  //div[@id='vsb_content']//p//text()
+  # html
+  //p[@class='vsbcontent_start']//parent::div
+  //div[@id='vsb_content_2']
+  //div[@id='vsb_content']
+  # image_urls
+  //div[@id='vsb_content_501']//p//img//@src
+  //div[@id='vsb_content_2']//p//img//@src
+  //div[@id='vsb_content']//p//img//@src 
+][
+  # 车辆与能源学院
+  https://vec.ysu.edu.cn/xwdt.htm
+  # news_list
+  //li[@id='lineu5_0']//parent::ul//child::li[@style='']//a//@href
+  //li[@id='lineu5_0']//parent::ul//child::li//a//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //div[@class='n_title']//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //div[@id='vsb_content']//p//text()
+  # html
+  //div[@id='vsb_content']
+  # image_urls
+  //div[@id='vsb_content']//p//img//@src
+][
+  # 环境与化学工程学院
+  https://ece.ysu.edu.cn/xwdt/xwdt.htm
+  # news_list
+  //tr[@id='line53592_0']/parent::tbody/child::tr[@style='']//@href
+  //tr[@id='line53592_0']/parent::tbody/child::tr[@id!='']//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle54275']//text()
+  # time
+  //span[@class='timestyle54275']//text()
+  # author
+  .
+  # content
+  //p[@class='vsbcontent_start']//parent::div//child::p//text()
+  # html
+  //p[@class='vsbcontent_start']//parent::div
+  # image_urls
+  //p[@class='vsbcontent_img']//img//@src
+][
+  # 建筑工程与力学学院
+  https://jgxy.ysu.edu.cn/xwzx/xyxw_.htm
+  # news_list
+  //tr[@id='lineu6_0']/parent::tbody/child::tr[@style='']//@href
+  //tr[@id='lineu6_0']/parent::tbody/child::tr//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='ee']//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //td[@id='vsb_content']//p[span!='']//text()
+  # html
+  //td[@id='vsb_content']
+  # image_urls
+  //td/img//@title/parent::img
+][
+  # 信息科学与工程学院
+  https://ise.ysu.edu.cn/xwdt.htm
+  # news_list
+  //tr[@id='lineu4_0']/parent::tbody/child::tr[@style='']//@href
+  //tr[@id='lineu4_0']/parent::tbody/child::tr//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //div[@class='textTitle']//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //div[@id='vsb_content_501']//p//text()
+  # html
+  //div[@id='vsb_content_501']
+  # image_urls
+  //p[@class='vsbcontent_img']//img//@src
+][
+  # 电气工程学院
+  http://iee.ysu.edu.cn/xybgs/xyxw.htm
+  # news_list
+  //tr[@id='lineu7_0']/parent::tbody/child::tr[@style='']//@href
+  //tr[@id='lineu7_0']/parent::tbody/child::tr//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //div[@id='vsb_content']/parent::form/child::table[1]//b//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //div[@id='vsb_content']/parent::form/child::table[position()>1]//p//text()
+  # html
+  //div[@id='vsb_content']/parent::form/child::table[position()>1]
+  # image_urls
+  //div[@id='vsb_content']/parent::form/child::table[position()>1]//img//@src
+][
+  # 材料科学与工程学院
+  http://mse.ysu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1011
+  # news_list
+  //a[@class='c41138']//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle41144']//text()
+  # time
+  //span[@class='timestyle41144']//text()
+  # author
+  .
+  # content
+  //div[@id='vsb_content']//p//text()
+  //p[@class='vsbcontent_start']//parent::div//child::p//text()
+  # html
+  //div[@id='vsb_content']
+  //p[@class='vsbcontent_start']//parent::div
+  # image_urls
+  //p[@class='vsbcontent_start']//parent::div//child::p//img//@src
+][
+  # 机械工程学院
+  http://mec.ysu.edu.cn/xwdt.htm
+  # news_list
+  //li[@id='lineu7_0']//parent::ul//child::li[@style='line-height: 28px;']//a//@href
+  //li[@id='lineu7_0']//parent::ul//child::li[@style='line-height:28px']//a//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //div[@class='n_title']//text()
+  # time
+  .
+  # author
+  .
+  # content
+  //div[@class='n_content']//p//text()
+  # html
+  //div[@class='n_content']
+  # image_urls
+  //div[@class='n_content']//img//@src
+][
+  # 燕大新闻网
+  https://news.ysu.edu.cn/xwtx.htm
+  # news_list
+  //tr[@id='line51318_0']/parent::tbody/child::tr[@style='']//@href
+  //tr[@id='line51318_0']/parent::tbody/child::tr[@id!='']//@href
+  # next_link
+  //a[@class='Next'][1]//@href
+
+  # title
+  //td[@class='titlestyle51307']//text()
+  # time
+  //span[@class='timestyle51307']//text()
+  # author
+  //span[@class='authorstyle51307']//text()
+  # content
+  //div[@id='vsb_content']//p//text()
+  //div[@id='vsb_content_1021']//p//text()
+  //p[@class='vsbcontent_start']//parent::div//child::p//text()
+  # html
+  //div[@id='vsb_content']
+  //div[@id='vsb_content_1021']
+  //p[@class='vsbcontent_start']//parent::div
+  # image_urls
+  //div[@id='vsb_content']//img//@src
+  //div[@id='vsb_content_1021']//img//@src
+  //p[@class='vsbcontent_start']//parent::div//img//@src
+]

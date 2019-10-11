@@ -1,0 +1,32 @@
+{
+        "http://ysu.edu.cn/index/xwtx.htm":{
+            "char": ["/", "/"],
+            "num": [1, 1],
+            "news_list":["//div[@class='list']//ul//li[@style='']//a//@href",
+                         "//div[@class='list']//ul//li//a//@href"],
+            "news_date":["//div[@class='list']//ul//li[@style='']//a//div[@class='list-date']//text()",
+                         "//div[@class='list']//ul//li//a//div[@class='list-date']//text()"],
+            "next_link":"//a[@class='Next'][1]//@href",
+            "title":"//div[@class='content-title']//h3[1]//text()",
+            "time":"//div[@class='content-title']//i//span[1]//text()",
+            "author":"//div[@class='content-title']//i//em//text()",
+            "content":["//div[@class='content-con']//p//text()"],
+            "html":["//div[@class='content-con']"],
+            "image_urls":["//div[@class='content-con']//img//@src"]
+        },
+        "https://ysu.edu.cn/index/xyxw.htm":{
+            "char": ["/", "/"],
+            "num": [1, 1],
+            "news_list":["//div[@class='list']//ul//li[@style='']//a//@href",
+                         "//div[@class='list']//ul//li//a//@href"],
+            "news_date":["//div[@class='list']//ul//li[@style='']//a//div[@class='list-date']//text()",
+                         "//div[@class='list']//ul//li//a//div[@class='list-date']//text()"],
+            "next_link":"//a[@class='Next'][1]//@href",
+            "title":"//div[@class='content-title']//h3[1]//text()",
+            "time":"//div[@class='content-title']//i//span[1]//text()",
+            "author":"//div[@class='content-title']//i//em//text()",
+            "content":["//div[@class='content-con']//p//text()"],
+            "html":["//div[@class='content-con']"],
+            "image_urls":["//div[@class='content-con']//img//@src"]
+        }
+    }
